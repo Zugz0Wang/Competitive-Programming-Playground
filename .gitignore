@@ -1,0 +1,10 @@
+#executable
+*.exe
+
+#Temporary Codes
+Temp
+
+#VScode
+checks.json
+build
+.vscode
