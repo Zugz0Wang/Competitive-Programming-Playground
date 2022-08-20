@@ -62,25 +62,32 @@ using namespace std;
 // @lc code=start
 class Solution {
 public:
-    int choose(int n, int k) {
-        if (n - k < k) {
-            k = n - k;
-        }
-        long long sum = 1;
-        int mod = 2;
-        for (int i = 0; i < k; i++) {
-            sum *= n - i;
-            while (mod <= k && sum % mod == 0) {
-                sum /= mod;
-                mod++;
-            }
-        }
-        return sum;
-    }
+    vector<vector<int>> dp_table;
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
         const int kM = obstacleGrid.size();
         const int kN = obstacleGrid.at(0).size();
-        return 0;
+        vector<int> row(kN, 0);
+        dp_table.assign(kM, row);
+        if (obstacleGrid.at(0).at(0) == 1) {
+            return 0;
+        }
+        dp_table.at(0).at(0) = 1;
+        for (int i = 0; i < kM; i++) {
+            for (int j = 0; j < kN; j++) {
+                int prev0 = i - 1;
+                int prev1 = j - 1;
+                if (obstacleGrid.at(i).at(j) == 1) {
+                    continue;
+                }
+                if (prev0 >= 0) {
+                    dp_table.at(i).at(j) += dp_table.at(prev0).at(j);
+                }
+                if (prev1 >= 0) {
+                    dp_table.at(i).at(j) += dp_table.at(i).at(prev1);
+                }
+            }
+        }
+        return dp_table.at(kM - 1).at(kN - 1);
     }
 };
 // @lc code=end
