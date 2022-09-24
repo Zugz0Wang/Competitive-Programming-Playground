@@ -1,3 +1,4 @@
+// @lc app=leetcode id=203 lang=cpp
 // Definition for singly-linked list.
 struct ListNode {
     int val;
@@ -6,7 +7,7 @@ struct ListNode {
     ListNode(int x) : val(x), next(nullptr) {}
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
-
+// @lc code=start
 class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {
@@ -30,3 +31,4 @@ public:
         return head;
     }
 };
+// @lc code=end

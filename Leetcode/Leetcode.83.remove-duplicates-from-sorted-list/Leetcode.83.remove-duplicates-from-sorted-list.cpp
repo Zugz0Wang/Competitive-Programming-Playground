@@ -1,3 +1,4 @@
+// @lc app=leetcode id=83 lang=cpp
 struct ListNode {
     int val;
     ListNode *next;
@@ -5,7 +6,7 @@ struct ListNode {
     ListNode(int x) : val(x), next(nullptr) {}
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
-
+// @lc code=start
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -26,3 +27,4 @@ public:
         return head;
     }
 };
+// @lc code=end

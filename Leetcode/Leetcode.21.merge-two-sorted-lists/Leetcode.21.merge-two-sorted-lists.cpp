@@ -1,4 +1,4 @@
-
+// @lc app=leetcode id=21 lang=cpp
 struct ListNode {
     int val;
     ListNode *next;
@@ -7,6 +7,7 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
  
+// @lc code=start
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
@@ -38,3 +39,4 @@ public:
         return list1;
     }
 };
+// @lc code=end

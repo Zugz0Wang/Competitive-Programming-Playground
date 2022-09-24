@@ -1,3 +1,4 @@
+// @lc app=leetcode id=113 lang=cpp
 #include <vector>
 using namespace std;
 struct TreeNode {
@@ -8,6 +9,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
+// @lc code=start
 class Solution {
 public:
     bool isLeaf(TreeNode* root) {
@@ -46,3 +48,4 @@ public:
         return to_return;
     }
 };
+// @lc code=end
