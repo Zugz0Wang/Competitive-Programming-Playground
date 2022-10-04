@@ -1,3 +1,4 @@
+// @lc app=leetcode id=101 lang=cpp
 // Definition for a binary tree node.
 struct TreeNode {
     int val;
@@ -7,7 +8,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
-
+// @lc code=start
 class Solution {
 public:
     bool isSymmetricHelper(TreeNode* left, TreeNode* right) {
@@ -28,3 +29,4 @@ public:
         return isSymmetricHelper(root->left, root->right);
     }
 };
+// @lc code=end

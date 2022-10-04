@@ -1,4 +1,4 @@
-
+// @lc app=leetcode id=98 lang=cpp
 // Definition for a binary tree node.
 struct TreeNode {
     int val;
@@ -8,7 +8,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
-
+// @lc code=start
 class Solution {
 public:
     bool isValidBSTHelper(TreeNode* root, bool left, int parent_val) { // Check if a tree's all nodes are less than or great than a value
@@ -34,3 +34,4 @@ public:
         return isValidBSTHelper(root->left, true, value) && isValidBSTHelper(root->right, false, value) && isValidBST(root->left) && isValidBST(root->right);
     }
 };
+// @lc code=end

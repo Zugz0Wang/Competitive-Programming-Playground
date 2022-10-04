@@ -1,3 +1,4 @@
+// @lc app=leetcode id=112 lang=cpp
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -6,6 +7,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
+// @lc code=start
 class Solution {
 public:
     bool hasPathSum(TreeNode* root, int targetSum) {
@@ -22,3 +24,4 @@ public:
         return hasPathSum(root->left, new_target) || hasPathSum(root->right, new_target);
     }
 };
+// @lc code=end

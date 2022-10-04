@@ -1,3 +1,4 @@
+// @lc app=leetcode id=104 lang=cpp
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -6,7 +7,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
-
+// @lc code=start
 class Solution {
 public:
     int maxDepthHelper(TreeNode* root) { // Normal edge counting depth
@@ -37,3 +38,4 @@ public:
         return maxDepthHelper(root) + 1;
     }
 };
+// @lc code=end

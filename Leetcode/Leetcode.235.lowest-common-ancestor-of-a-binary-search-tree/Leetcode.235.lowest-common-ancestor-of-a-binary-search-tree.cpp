@@ -1,3 +1,4 @@
+// @lc app=leetcode id=235 lang=cpp
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -6,7 +7,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
-
+// @lc code=start
 class Solution {
 public:
     bool isAncestor(TreeNode* root, TreeNode* p) {
@@ -40,3 +41,4 @@ public:
         return to_return;
     }
 };
+// @lc code=end
