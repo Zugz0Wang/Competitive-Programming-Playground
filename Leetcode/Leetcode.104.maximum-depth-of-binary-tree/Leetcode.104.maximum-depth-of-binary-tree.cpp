@@ -10,32 +10,17 @@ struct TreeNode {
 // @lc code=start
 class Solution {
 public:
-    int maxDepthHelper(TreeNode* root) { // Normal edge counting depth
-        if (root == nullptr) {
-            return 0;
-        }
-        int left_height = 0;
-        if (root->left) {
-            left_height = 1 + maxDepthHelper(root->left);
-        }
-        int right_height = 0;
-        if (root->right) {
-            right_height = 1 + maxDepthHelper(root->right);
-        }
-        int sub_height = 0;
-        if (left_height > right_height) {
-            sub_height = left_height;
-        } else {
-            sub_height = right_height;
-        }
-        return sub_height;
-    }
-    
     int maxDepth(TreeNode* root) {
         if (root == nullptr) {
             return 0;
         }
-        return maxDepthHelper(root) + 1;
+        int depth_left = maxDepth(root->left);
+        int depth_right = maxDepth(root->right);
+        if (depth_left > depth_right) {
+            return 1 + depth_left;
+        } else {
+            return 1 + depth_right;
+        }
     }
 };
 // @lc code=end

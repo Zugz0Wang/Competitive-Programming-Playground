@@ -1,5 +1,7 @@
+// @lc app=leetcode id=12 lang=cpp
 #include <string>
 using namespace std;
+// @lc code=start
 class Solution {
 public:
     static const int kSize = 13;
@@ -20,3 +22,4 @@ public:
         return to_return;
     }
 };
+// @lc code=end

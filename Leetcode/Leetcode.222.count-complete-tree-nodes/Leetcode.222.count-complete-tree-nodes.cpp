@@ -1,0 +1,95 @@
+/*
+ * @lc app=leetcode id=222 lang=cpp
+ *
+ * [222] Count Complete Tree Nodes
+ *
+ * https://leetcode.com/problems/count-complete-tree-nodes/description/
+ *
+ * algorithms
+ * Medium (56.64%)
+ * Likes:    5952
+ * Dislikes: 339
+ * Total Accepted:    459.3K
+ * Total Submissions: 797.1K
+ * Testcase Example:  '[1,2,3,4,5,6]'
+ *
+ * Given the root of a complete binary tree, return the number of the nodes in
+ * the tree.
+ * 
+ * According to Wikipedia, every level, except possibly the last, is completely
+ * filled in a complete binary tree, and all nodes in the last level are as far
+ * left as possible. It can have between 1 and 2^h nodes inclusive at the last
+ * level h.
+ * 
+ * Design an algorithm that runs in less than O(n) time complexity.
+ * 
+ * 
+ * Example 1:
+ * 
+ * 
+ * Input: root = [1,2,3,4,5,6]
+ * Output: 6
+ * 
+ * 
+ * Example 2:
+ * 
+ * 
+ * Input: root = []
+ * Output: 0
+ * 
+ * 
+ * Example 3:
+ * 
+ * 
+ * Input: root = [1]
+ * Output: 1
+ * 
+ * 
+ * 
+ * Constraints:
+ * 
+ * 
+ * The number of nodes in the tree is in the range [0, 5 * 10^4].
+ * 0 <= Node.val <= 5 * 10^4
+ * The tree is guaranteed to be complete.
+ * 
+ * 
+ */
+
+//  Definition for a binary tree node.
+  struct TreeNode {
+      int val;
+      TreeNode *left;
+      TreeNode *right;
+      TreeNode() : val(0), left(nullptr), right(nullptr) {}
+      TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+      TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+  };
+
+// @lc code=start
+
+class Solution {
+public:
+    int countNodes(TreeNode* root) {
+        if (root == nullptr) {
+            return 0;
+        }
+        TreeNode* left = root;
+        TreeNode* right = root;
+        int h_left = 0, h_right = 0;
+        while (left != nullptr) {
+            left = left->left;
+            h_left++;
+        }
+        while (right != nullptr) {
+            right = right->right;
+            h_right++;
+        }
+        if (h_right == h_left) {
+            return (1 << h_right) - 1;
+        }
+        return 1 + countNodes(root->left) + countNodes(root->right);
+    }
+};
+// @lc code=end
+

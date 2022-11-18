@@ -1,5 +1,9 @@
+/* @lc app=leetcode id=26 lang=cpp
+*/
 #include <vector>
 using namespace std;
+
+// @lc code=start
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -27,3 +31,4 @@ public:
         return insert_idx;
     }
 };
+// @lc code=end
