@@ -1,3 +1,4 @@
+// @lc app=leetcode id=124 lang=cpp
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -6,7 +7,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
-
+// @lc code=start
 class Solution {
 public:
     int maxRootPathSumHelper(TreeNode* root, int& max_sum, bool& start) {
@@ -49,3 +50,4 @@ public:
         return max;
     }
 };
+// @lc code=end
