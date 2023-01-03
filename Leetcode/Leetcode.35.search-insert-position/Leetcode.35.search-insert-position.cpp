@@ -1,6 +1,7 @@
+// @lc app=leetcode id=35 lang=cpp
 #include <vector>
 using namespace std;
-
+// @lc code=start
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -29,3 +30,4 @@ public:
         return mid;
     }
 };
+// @lc code=end
