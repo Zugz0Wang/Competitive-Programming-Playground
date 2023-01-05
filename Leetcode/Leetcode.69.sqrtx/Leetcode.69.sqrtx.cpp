@@ -1,3 +1,5 @@
+// @lc app=leetcode id=69 lang=cpp
+// @lc code=start
 class Solution {
 public:
     int mySqrt(int x) {
@@ -23,3 +25,4 @@ public:
         return mid;
     }
 };
+// @lc code=end
