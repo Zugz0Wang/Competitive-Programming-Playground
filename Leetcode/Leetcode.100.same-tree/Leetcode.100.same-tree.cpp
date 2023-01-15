@@ -1,4 +1,6 @@
+// @lc app=leetcode id=100 lang=cpp
 // Definition for a binary tree node.
+
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -7,7 +9,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
- 
+// @lc code=start
 class Solution {
 public:
     bool isSameHelper(TreeNode* p, TreeNode* q) {
@@ -24,3 +26,4 @@ public:
         return isSameHelper(p, q);
     }
 };
+// @lc code=end
