@@ -91,6 +91,7 @@
 // @lc code=start
 class Solution {
 public:
+    // Original Solution
     int b[4000];
     bool visited[4000];
     bool jumped[4000];

@@ -46,24 +46,26 @@
  * - 1.
  * 
  */
-#include <vector>
-using namespace std;
+
 // @lc code=start
 class Solution {
 public:
+    int arr[3];
     int tribonacci(int n) {
-        if (n == 0) {
-            return 0;
-        } else if (n <= 2) {
-            return 1;
+        arr[0] = 0;
+        arr[1] = 1;
+        arr[2] = 1;
+        int head = 0;
+        if (n < 3) {
+            return arr[n];
         }
-        vector<unsigned int> dp_table(n + 1, 0);
-        dp_table.at(1) = 1;
-        dp_table.at(2) = 1;
-        for (int i = 3; i <= n; i++) {
-            dp_table.at(i) = dp_table.at(i - 1) + dp_table.at(i - 2) + dp_table.at(i - 3);
+        n = n - 3;
+        while (n >= 0) {
+            arr[head] = arr[head] + arr[(head + 1) % 3] + arr[(head + 2) % 3];
+            head = (head + 1) % 3;
+            n--;
         }
-        return dp_table.at(n);
+        return arr[(head + 2) % 3];
     }
 };
 // @lc code=end
