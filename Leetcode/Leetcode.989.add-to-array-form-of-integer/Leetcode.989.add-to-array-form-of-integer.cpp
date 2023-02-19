@@ -68,15 +68,29 @@ public:
         int carry = 0;
         const int kSize = num.size();
         int idx = kSize - 1;
-        while (k > 0) {
+        while ((idx >= 0) && (k > 0 || carry > 0)) {
             int digit = k % 10;
             int& curr = num.at(idx);
-            curr += curr + carry;
-            if (curr > 10) {
+            curr += digit + carry;
+            if (curr >= 10) {
                 curr -= 10;
                 carry = 1;
+            } else {
+                carry = 0;
             }
+
+            idx -= 1;
             k /= 10;
+        }
+        //cout << num.at(0);
+        carry += k;
+        while (carry >= 1) {
+            num.push_back(0);
+            for (int i = num.size() - 1; i > 0; --i) {
+                num.at(i) = num.at(i - 1);
+            }
+            num.at(0) = carry % 10;
+            carry /= 10;
         }
         return num;
     }
