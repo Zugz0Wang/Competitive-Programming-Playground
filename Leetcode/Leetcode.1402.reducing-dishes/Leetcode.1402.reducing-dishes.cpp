@@ -68,7 +68,7 @@ using namespace std;
 // @lc code=start
 class Solution {
 public:
-    int maxSatisfaction(vector<int>& satisfaction) { // Original
+    int maxSatisfaction(vector<int>& satisfaction) { // Original One-pass
         sort(satisfaction.begin(), satisfaction.end());
         const int kSize(satisfaction.size());
         const int end(kSize - 1);
