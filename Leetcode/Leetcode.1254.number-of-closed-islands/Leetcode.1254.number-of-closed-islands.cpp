@@ -66,7 +66,7 @@
 #include <vector>
 using namespace std;
 // @lc code=start
-class Solution { // Original
+class Solution { // LC.1254; Independently solved.
 public:
     int* mp = nullptr;
     bool* land = nullptr;
@@ -78,7 +78,7 @@ public:
         return (row > 0 && row < kRow - 1 && col > 0 && col < kCol - 1);
     }
 
-    int find(int a) {
+    int find(int a) { // Find which group a belongs.
         if (mp[a] == a) {
             return a;
         }
@@ -87,29 +87,29 @@ public:
         return parent;
     }
 
-    void uni(int a, int b) {
+    void uni(int a, int b) { // Merge two groups together
         int p_a(find(a));
         int p_b(find(b));
-        if (!land[p_a] || !land[p_b]) {
+        if (!land[p_a] || !land[p_b]) { // If the union involves non-land land, mark both as non-land land
             land[p_a] = false;
             land[p_b] = false;
         }
         mp[p_b] = p_a;
     }
 
-    int closedIsland(vector<vector<int>>& grid) { // Original
+    int closedIsland(vector<vector<int>>& grid) {
         kRow = grid.size();
         kCol = grid.at(0).size();
         mp = new int[kRow * kCol];
         land = new bool[kRow * kCol];
-        for (int i(0); i < kRow * kCol; ++i) {
+        for (int i(0); i < kRow * kCol; ++i) { // Initialize
             mp[i] = i;
             land[i] = false;
         }
 
        
         for (int row(0); row < kRow - 1; ++row) {
-            for (int col(0); col < kCol - 1; ++col) {
+            for (int col(0); col < kCol - 1; ++col) { // Loop through all the block, and merge if two neighbor blocks are both 0s
                 if (grid.at(row).at(col) != 0) {
                     continue;
                 }
@@ -130,28 +130,21 @@ public:
             }
         }
 
-        // for (int row(0); row < kRow; ++row) {
-        //     for (int col(0); col < kCol; ++col) {
-        //         int curr_idx(row * kCol + col);
-        //         cout << mp[curr_idx] << ' ';
-        //     }
-        //     cout << '\n';
-        // }
-        // cout << '\n';
-        //  for (int row(0); row < kRow; ++row) {
-        //     for (int col(0); col < kCol; ++col) {
-        //         cout << grid.at(row).at(col) << ' ';
-        //     }
-        //     cout << '\n';
-        // }
         int count(0);
         for (int i(0); i < kRow * kCol; ++i) {
             // cout << mp[i] << '\n';
-            if (mp[i] == i && land[i]) {
+            if (mp[i] == i && land[i]) { // Check whether the group is a land group
                 // cout << i << "!\n";
                 ++count;
             }
         }
+
+        delete[] mp;
+        delete[] land;
+
+        mp = nullptr;
+        land = nullptr;
+
         return count;
     }
 };
