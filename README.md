@@ -22,6 +22,12 @@ I used BFS to solve this problem. I forgot that the graphs might have multiple c
 
 ---
 
+## Leetcode.934. Shortest Bridge (Independently solved)
+
+This question tests the idea of using BFS with multiple starting points. I first find a single starting point of one of the islands, identify all the nodes of the island, and finally use BFS with multiple starting points to find the distance between the two islands.
+
+---
+
 ## Leetcode.1557. Minimum Number of Vertices to Reach All Nodes (Independently solved)
 
 At first, I thought I should try "Union Find" with "merging by size" or other similar ideas. But later, I figured out that I must include all the nodes with zero in-going edges and shouldn't include any nodes with in-going edges.
