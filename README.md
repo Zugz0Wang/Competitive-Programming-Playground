@@ -26,19 +26,19 @@ Not completely sure how I managed to solve it independently. I'm just having a i
 
 ---
 
+## Leetcode.703. Kth Largest Element In A Stream (Independently solved)
+
+- 20230523
+
+I used a map, a binary search tree, to solve this problem. This question is a good practice for iterators.
+
+---
+
 ## Leetcode.785. Is Graph Bipartite (Independently solved)
 
 - 20230519
 
 I used BFS to solve this problem. I forgot that the graphs might have multiple components at first, and then I added the outer for-loop to check through all graph components.
-
----
-
-## <span class="LC.703">Leetcode.703.</span> Kth Largest Element In A Stream (Independently solved)
-
-- 20230523
-
-I used a map, a binary search tree, to solve this problem. This question is a good practice for iterators.
 
 ---
 
