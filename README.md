@@ -34,6 +34,14 @@ I used BFS to solve this problem. I forgot that the graphs might have multiple c
 
 ---
 
+## <span class="LC.703">Leetcode.703.</span> Kth Largest Element In A Stream (Independently solved)
+
+- 20230523
+
+I used a map, a binary search tree, to solve this problem. This question is a good practice for iterators.
+
+---
+
 ## Leetcode.934. Shortest Bridge (Independently solved)
 
 - 20230521
