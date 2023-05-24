@@ -55,3 +55,11 @@ This question tests the idea of using BFS with multiple starting points. I first
 - 20230518
 
 At first, I thought I should try "Union Find" with "merging by size" or other similar ideas. But later, I figured out that I must include all the nodes with zero in-going edges and shouldn't include any nodes with in-going edges.
+
+---
+
+## Leetcode.2542. Maximum Subsequent Score (Learned from solution)
+
+- 20230524
+
+The basic idea is the same as Leetcode.703 from yesterday. You need to maintain some data structure of size k and pop something out when the size is over k.
