@@ -50,6 +50,16 @@ This question tests the idea of using BFS with multiple starting points. I first
 
 ---
 
+## Leetcode.837. New 21 Game (Independently solved) (Hinted by Big O)
+
+- 20230525
+
+Following the main idea of the previous few days, this question also tests the concept of maintaining some data structure of a specific size, popping old elements when new elements arrive. 
+
+In this question, while also examing the basic idea of dynamic programming, the critical point is calculating the sum of probabilities of previously calculated information. To achieve that, instead of looping through, I use a circular queue to quickly calculate the sum of the previous "maxPts" number of probability. The circular queue allows me to update the sum of probabilities in constant time. You can maintain a sum in a variable, deduct the sum of the first element of the queue, and add the incoming new probability to quickly update the sum. 
+
+---
+
 ## Leetcode.1557. Minimum Number of Vertices to Reach All Nodes (Independently solved)
 
 - 20230518
