@@ -68,6 +68,13 @@ This question tests the idea of memorized DFS. The critical trick would be using
 
 ---
 
+## Leetcode.1547. Minimum Cost To Cut A Stick
+
+- Independently solved (hinted by tags and titles); 20230528
+
+This problem can be solved by dynamic programming. I came up with a bottom-up dynamic programming technique, which calculates the subproblems with a few cuts and builds up information to solve larger subproblems.
+
+---
 ## Leetcode.1557. Minimum Number of Vertices to Reach All Nodes 
 
 - Independently solved; 20230518
