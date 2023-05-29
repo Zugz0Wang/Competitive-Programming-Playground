@@ -83,6 +83,14 @@ At first, I thought I should try "Union Find" with "merging by size" or other si
 
 ---
 
+## Leetcode.1603. Design Parking System
+
+- Independently solved; 20230529
+
+It's a simple counting problem. Keeping track of the number of remaining parking slots for each type of car and deducting the number of available slots respectively are the keys to solving this problem.
+
+---
+
 ## Leetcode.2542. Maximum Subsequent Score 
 
 - Learned from solution; 20230524
