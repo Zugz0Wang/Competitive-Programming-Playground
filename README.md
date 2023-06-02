@@ -91,6 +91,16 @@ It's a simple counting problem. Keeping track of the number of remaining parking
 
 ---
 
+## Leetcode.2101. Detonate The Maximum Bombs
+
+- Independently solved; 20230602
+
+I first convert the bomb relationships into a graph and then use BFS to calculate how many bombs can be detonated through the ith bomb. At first, I tried to use Union Find to solve this problem, but then I realized that this graph is directed.
+
+Union Find uses path compression to accelerate the algorithm. I guess I can also use path compression in a graph with multiple components or directed, but that would be unnecessary.
+
+---
+
 ## Leetcode.2542. Maximum Subsequent Score 
 
 - Learned from solution; 20230524
