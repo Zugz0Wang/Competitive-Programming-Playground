@@ -68,6 +68,14 @@ This question tests the idea of memorized DFS. The critical trick would be using
 
 ---
 
+## Leetcode.1376. Time Needed To Inform All Employees
+
+- Independently solved; 20230603
+
+I used recursion to solve this problem. The time to inform a tree of employees equals inform time of the current head plus the maximum time for its sub-division heads to inform their employees.
+
+---
+
 ## Leetcode.1547. Minimum Cost To Cut A Stick
 
 - Independently solved (hinted by tags and titles); 20230528
