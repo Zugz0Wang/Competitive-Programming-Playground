@@ -26,6 +26,12 @@ Not completely sure how I managed to solve it independently. I'm just having a i
 
 ---
 
+## Leetcode.547. Number Of Provinces
+
+This problem is about counting the connected component of a graph. I used Union Find to solve it. BFS would also work.
+
+---
+
 ## Leetcode.703. Kth Largest Element In A Stream 
 
 - Independently solved; 20230523
