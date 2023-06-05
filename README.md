@@ -66,6 +66,14 @@ This question tests the idea of using BFS with multiple starting points. I first
 
 ---
 
+## Leetcode.1091. Shortest Path In Binary Matrix
+
+- Independently solved; 20230601
+
+A typical question for BFS. I reused the grid matrix as the visited set.
+
+---
+
 ## Leetcode.1140. Stone Game II
 
 - Unknown, probably learned; 20220822
