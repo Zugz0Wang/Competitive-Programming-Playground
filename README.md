@@ -82,6 +82,14 @@ This question tests the idea of memorized DFS. The critical trick would be using
 
 ---
 
+## Leetcode.1231. Check If It Is A Straight Line
+
+- Independently solved; 20230605
+
+I constructed a direction struct to help me handle vertical cases.
+
+---
+
 ## Leetcode.1376. Time Needed To Inform All Employees
 
 - Independently solved; 20230603
