@@ -98,6 +98,14 @@ I used recursion to solve this problem. The time to inform a tree of employees e
 
 ---
 
+## Leetcode.1502. Cab anje Arithmetic Progression From Sequence
+
+- Hinted (misread the question); 20230606
+
+In the beginning, I thought a sequence would be valid if all the absolute values of differences between consecutive pairs were the same, for example, 1010101. I wonder how can I solve a problem like that.
+
+---
+
 ## Leetcode.1547. Minimum Cost To Cut A Stick
 
 - Independently solved (hinted by tags and titles); 20230528
