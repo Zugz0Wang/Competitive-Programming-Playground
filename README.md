@@ -90,6 +90,14 @@ I constructed a direction struct to help me handle vertical cases.
 
 ---
 
+## Leetcode.1318. Minimum Flips To Make A or B Equal To C
+
+- Independently solved; 20230607
+
+My solution loops through every bit of a,b, and c and checks whether I need to flip some bits in a and/or b. This problem provides a good chance to practice bitwise manipulations.
+
+---
+
 ## Leetcode.1376. Time Needed To Inform All Employees
 
 - Independently solved; 20230603
