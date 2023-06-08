@@ -47,7 +47,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution { // Independently solved
 public:
     vector<vector<int>> grid0;
     int kRow;

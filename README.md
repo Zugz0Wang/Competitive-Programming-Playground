@@ -98,6 +98,14 @@ My solution loops through every bit of a,b, and c and checks whether I need to f
 
 ---
 
+## Leetcode.1351. Count Negative Numbers In A sorted Matrix
+
+- Independently solved; 20230608
+
+Since the matrix is sorted from top left to bottom right, if we can find an element with a negative value, all elements from the bottom right area would be negative. So, we can start from the bottom left and follow along the "stairs" to get the number of negative numbers.
+
+---
+
 ## Leetcode.1376. Time Needed To Inform All Employees
 
 - Independently solved; 20230603
