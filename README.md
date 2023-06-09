@@ -40,6 +40,14 @@ I used a map, a binary search tree, to solve this problem. This question is a go
 
 ---
 
+## Leetcode.744. Find Smallest Letter Greater Than Target
+
+- Independently solved; 20230609
+
+A textbook Binary Search question.
+
+---
+
 ## Leetcode.785. Is Graph Bipartite 
 
 - Independently solved; 20230519

@@ -64,7 +64,7 @@
 #include <vector>
 using namespace std;
 // @lc code=start
-class Solution {
+class Solution { // Independently solved
 public:
     char nextGreatestLetter(vector<char>& letters, char target) {
         int head = 0;
