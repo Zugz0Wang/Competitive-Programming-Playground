@@ -153,6 +153,14 @@ It's a simple counting problem. Keeping track of the number of remaining parking
 
 ---
 
+## Leetcode.1802. Maximum Value At A Given Index In A Bounded Array
+
+- Independently solved; 20230610
+
+This is a textbook Binary Search question. Be careful with integer overflows.
+
+---
+
 ## Leetcode.2101. Detonate The Maximum Bombs
 
 - Independently solved; 20230602
