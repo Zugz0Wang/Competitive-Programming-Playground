@@ -90,6 +90,14 @@ This question tests the idea of memorized DFS. The critical trick would be using
 
 ---
 
+## Leetcode.1146. Snapshot Array
+
+- Independently solved; 20230611
+
+This question reminds me of the git architecture. I used a vector of structs to record the change of values of each index from a start snapshot id to an end snapshot id. At first, I chose to change every end value of the last element of every index at every snapshot, which led to a TLE. To improve the time complexity, I chose to use an INF value at the last element of all indices and update the end value only when it's changing, such that I only need to update the snapshot id when the snapshot function is called. 
+
+---
+
 ## Leetcode.1231. Check If It Is A Straight Line
 
 - Independently solved; 20230605
