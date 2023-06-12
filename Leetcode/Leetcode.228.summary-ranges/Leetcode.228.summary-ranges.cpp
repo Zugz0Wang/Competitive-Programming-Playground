@@ -7,7 +7,7 @@
 #include <string>
 using namespace std;
 // @lc code=start
-class Solution {
+class Solution { // Unknown, probably Independently solved
 public:
     string rangeToString(int lower, int upper) {
         string to_return;
