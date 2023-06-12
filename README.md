@@ -10,6 +10,14 @@ output: pdf_document
 
 ---
 
+## Leetcode.228. Summary Ranges
+
+- Unknown, probably Independently solved; 20220814
+
+Simply looping through the vector and keeping track of continuous numbers.
+
+---
+
 ## Leetcode.347. Top K Frequent Elements 
 
 - Independently solved, but slow; 20230522
