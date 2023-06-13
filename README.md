@@ -192,3 +192,11 @@ Union Find uses path compression to accelerate the algorithm. I guess I can also
 - Learned from solution; 20230524
 
 The basic idea is the same as Leetcode.703 from yesterday. You need to maintain some data structure of size k and pop something out when the size is over k.
+
+---
+
+## Leetcode.2352. Equal Row And Column Pairs
+
+- Hinted(verified not going to TLE); 20230613
+
+Looping through all the columns and rows and checking whether all elements are the same. An alternative would be transforming vectors into hashable strings. 
