@@ -34,6 +34,14 @@ Not completely sure how I managed to solve it independently. I'm just having a i
 
 ---
 
+## Leetcode.530. Minimum Absolute Difference in BST
+
+- Independently solved; 20230614
+
+Textbook Binary Search Tree in order traversal (and keeping track of the previous element). (No need to calculate the absolute value)
+
+---
+
 ## Leetcode.547. Number Of Provinces
 
 This problem is about counting the connected component of a graph. I used Union Find to solve it. BFS would also work.
