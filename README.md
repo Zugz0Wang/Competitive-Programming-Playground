@@ -114,6 +114,14 @@ This question reminds me of the git architecture. I used a vector of structs to 
 
 ---
 
+## Leetcode.1161. Maximum Level Sum Of A Binary Tree
+
+- Independently solved; 20230615
+
+Textbook BFS and Binary Tree Level Order Traversal problem. An alternative solution would be using DFS, keeping track of the current level of the recursion calls, and using an array to record the sum of each level of tree nodes.
+
+---
+
 ## Leetcode.1231. Check If It Is A Straight Line
 
 - Independently solved; 20230605
