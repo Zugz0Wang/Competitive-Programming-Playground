@@ -177,6 +177,15 @@ At first, I thought I should try "Union Find" with "merging by size" or other si
 
 ---
 
+## Leetcode.1569. Number Of Ways To Reorder Array To Get Same BST
+
+- Independently solved; 20230518; 
+- Searched for calculating "N choose K" and multiplicative inverse.
+
+This is an excellent question that combines the knowledge of Math, recursion, and Binary Search Tree.
+
+---
+
 ## Leetcode.1603. Design Parking System
 
 - Independently solved; 20230529
