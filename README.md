@@ -122,6 +122,14 @@ Textbook BFS and Binary Tree Level Order Traversal problem. An alternative solut
 
 ---
 
+## Leetcode.1187. Make Array Strictly Increasing
+
+- Learned from solution; 20230617
+
+Dynamic Programming. I still don't understand why I need to update i1 to the "upper bound" of the previous largest value before using the array of dynamic programming.
+
+---
+
 ## Leetcode.1231. Check If It Is A Straight Line
 
 - Independently solved; 20230605
