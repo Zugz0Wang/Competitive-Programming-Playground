@@ -218,6 +218,14 @@ This is a textbook Binary Search question. Be careful with integer overflows.
 
 ---
 
+## Leetcode.2090. K radius Subarray Averages
+
+- Independently solved; 20230620;
+
+I used a sum variable to keep track of the sums of elements in the range. When I need to move the range of the sum, I can simply deduct the value of the "head" element and add the value of the "tail" element of the current range to the sum to keep track of the next sum. Be careful with integer overflows.
+
+---
+
 ## Leetcode.2101. Detonate The Maximum Bombs
 
 - Independently solved; 20230602
