@@ -257,3 +257,11 @@ The basic idea is the same as Leetcode.703 from yesterday. You need to maintain 
 - Hinted(verified not going to TLE); 20230613
 
 Looping through all the columns and rows and checking whether all elements are the same. An alternative would be transforming vectors into hashable strings. 
+
+---
+
+## Leetcode.2448. Minimum Cost To Make Array Equal
+
+- Hinted(but had technical issues about MLE); 20230621
+
+I independently figured out using prefix-sum to calculate the next cost sum in O(1). But it seems using a lambda function to sort the indices vector led to a Memory Limit Exceed.
