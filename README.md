@@ -56,6 +56,14 @@ I used a map, a binary search tree, to solve this problem. This question is a go
 
 ---
 
+## Leetcode.714. Best Time to Buy and Sell stock with Transaction fee
+
+- Copied from solution; 20230622
+
+Travelling and not understanding. I guess this a-few-line solution requires some math intuitive proofs to understand.
+
+---
+
 ## Leetcode.744. Find Smallest Letter Greater Than Target
 
 - Independently solved; 20230609
