@@ -98,6 +98,14 @@ This question tests the idea of using BFS with multiple starting points. I first
 
 ---
 
+## Leetcode.1027. Longest Arithmetic Subsequence
+
+- Independently solved (hinted by titles of solutions and tags); 20230623
+
+A strange dynamic programming problem. The small problem size limit reminds me to think about O($n^2$) methods.
+
+---
+
 ## Leetcode.1091. Shortest Path In Binary Matrix
 
 - Independently solved; 20230601
