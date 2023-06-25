@@ -98,6 +98,14 @@ This question tests the idea of using BFS with multiple starting points. I first
 
 ---
 
+## Leetcode.956. Tallest Billboard
+
+- Independently solved (hinted by tags and titles); 20230624; Hard
+
+Like the question from yesterday, the key to solve this problem is thinking about what information from the previous rods is helpful when the next length of rod shows up.
+
+---
+
 ## Leetcode.1027. Longest Arithmetic Subsequence
 
 - Independently solved (hinted by titles of solutions and tags); 20230623
