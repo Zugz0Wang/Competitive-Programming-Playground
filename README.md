@@ -297,3 +297,11 @@ Looping through all the columns and rows and checking whether all elements are t
 - Hinted(but had technical issues about MLE); 20230621
 
 I independently figured out using prefix-sum to calculate the next cost sum in O(1). But it seems using a lambda function to sort the indices vector led to a Memory Limit Exceed.
+
+---
+
+## Leetcode.2462. Total Cost to Hire K Workers
+
+- Independently solved; 20230626
+
+I used priority queue to select the candidates with the lowest cost.
