@@ -28,6 +28,10 @@ I used unordered map and priority queue to solve it.
 
 ## Leetcode.373. Find K Pairs with Smallest Sums
 
+- Independently solved; 20230627
+
+- It's slow because I didn't use heap.
+
 This is an interesting question. I used a 2D plane to help me clean my thoughts. A pair of sum with the i-th of the first and the j-th element of the second can be seen as a coordinate on a 2D plane.
 
 ---
@@ -197,6 +201,14 @@ I used recursion to solve this problem. The time to inform a tree of employees e
 - Hinted (misread the question); 20230606
 
 In the beginning, I thought a sequence would be valid if all the absolute values of differences between consecutive pairs were the same, for example, 1010101. I wonder how can I solve a problem like that.
+
+---
+
+## Leetcode.1514. Path with Maximum Probability
+
+- Independently solved; 202306
+
+Textbook Dijkstra problem.
 
 ---
 
