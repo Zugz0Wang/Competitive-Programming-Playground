@@ -26,6 +26,12 @@ I used unordered map and priority queue to solve it.
 
 ---
 
+## Leetcode.373. Find K Pairs with Smallest Sums
+
+This is an interesting question. I used a 2D plane to help me clean my thoughts. A pair of sum with the i-th of the first and the j-th element of the second can be seen as a coordinate on a 2D plane.
+
+---
+
 ## Leetcode.399. Evaluate Division 
 
 - Independently solved; 20230520
