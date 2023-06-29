@@ -100,6 +100,14 @@ In this question, while also examing the basic idea of dynamic programming, the 
 
 ---
 
+## Leetcode.864. Shortest Path to Get All Keys
+
+- Learned from solution; 20230629
+
+The main takeaway from this question is the idea of putting other information like the currently obtained keys into the state of the BFS queue.
+
+---
+
 ## Leetcode.934. Shortest Bridge 
 
 - Independently solved; 20230521
