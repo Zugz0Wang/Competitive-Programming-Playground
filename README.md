@@ -276,6 +276,14 @@ This is a textbook Binary Search question. Be careful with integer overflows.
 
 ---
 
+## Leetcode.1970. Last Day Where You Can Still Cross
+
+- Independently solved (verified my idea through tags); 20230630
+
+This is a textbook Union Find problem.
+
+---
+
 ## Leetcode.2090. K radius Subarray Averages
 
 - Independently solved; 20230620;
