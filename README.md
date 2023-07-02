@@ -302,19 +302,19 @@ Union Find uses path compression to accelerate the algorithm. I guess I can also
 
 ---
 
+## Leetcode.2305. Fair Distribution of Cookies
+
+- Learned from solution; 20230701
+
+A recursion problem. I managed to use a Stack to simulate recursion.
+
+---
+
 ## Leetcode.2328. Number Of Increasing Paths In A Grid
 
 - Learned from solution; 20230618
 
 At first, I was thinking in the wrong direction, which elements in the dynamic programming array represent the number of paths that end in that position. But that led to a Time Limit Exceeded. At last, I checked out the solution and found out plain DFS would solve it.
-
----
-
-## Leetcode.2542. Maximum Subsequent Score 
-
-- Learned from solution; 20230524
-
-The basic idea is the same as Leetcode.703 from yesterday. You need to maintain some data structure of size k and pop something out when the size is over k.
 
 ---
 
@@ -339,3 +339,11 @@ I independently figured out using prefix-sum to calculate the next cost sum in O
 - Independently solved; 20230626
 
 I used priority queue to select the candidates with the lowest cost.
+
+---
+
+## Leetcode.2542. Maximum Subsequent Score 
+
+- Learned from solution; 20230524
+
+The basic idea is the same as Leetcode.703 from yesterday. You need to maintain some data structure of size k and pop something out when the size is over k.
