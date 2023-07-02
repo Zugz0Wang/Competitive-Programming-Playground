@@ -252,6 +252,14 @@ This is a traditional recursion problem. You need to add one to the answer if th
 
 ---
 
+## Leetcode.1601. Maximum Number Of Achievable Transfer Requests
+
+- Learned from solution; 20230702
+
+I used Brute Force to iterate through all combinations of requests selection.
+
+---
+
 ## Leetcode.1603. Design Parking System
 
 - Independently solved; 20230529
