@@ -100,6 +100,14 @@ In this question, while also examing the basic idea of dynamic programming, the 
 
 ---
 
+## Leetcode.859. Buddy Strings
+
+- Independently solved; 20230703
+
+Handling the case of swapping identical characters is the key to solve this problem.
+
+---
+
 ## Leetcode.864. Shortest Path to Get All Keys
 
 - Learned from solution; 20230629
