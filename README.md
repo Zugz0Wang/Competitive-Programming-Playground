@@ -10,6 +10,14 @@ output: pdf_document
 
 ---
 
+## Leetcode.137. Single Number II
+
+- Independently solved; 20230704
+
+Similar to the previous Single Number I, every bit will be flipped 3n + 1 times. I need to make those numbers that occurred three times cancel with themselves, and therefore I used a ternary integer consisting of two binary integers to solve this problem. 
+
+---
+
 ## Leetcode.228. Summary Ranges
 
 - Unknown, probably Independently solved; 20220814
