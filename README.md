@@ -220,6 +220,14 @@ I used recursion to solve this problem. The time to inform a tree of employees e
 
 ---
 
+## Leetcode.1493. Longest Subarray Of 1s After Deleting One Element
+
+- Independently solved; 20230705
+
+The key of this problem is handling base cases, such as all ones and ones with zeros.
+
+---
+
 ## Leetcode.1502. Cab anje Arithmetic Progression From Sequence
 
 - Hinted (misread the question); 20230606
