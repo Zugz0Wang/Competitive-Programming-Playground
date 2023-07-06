@@ -18,6 +18,14 @@ Similar to the previous Single Number I, every bit will be flipped 3n + 1 times.
 
 ---
 
+## Leetocde.209. Minimum Size Subarray Sum
+
+- Independently solved; 20230706
+
+A slide window problem. The idea is to calculate the minimum length of valid subarrays starting from each index, and the length of valid subarrays will never shrink when all numbers in the array are positive.
+
+---
+
 ## Leetcode.228. Summary Ranges
 
 - Unknown, probably Independently solved; 20220814
