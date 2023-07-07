@@ -324,6 +324,14 @@ This is a textbook Union Find problem.
 
 ---
 
+## Leetcode.2024. Maximize The Confusion Of An Exam
+
+- Independently solved (checked hints but didn't understand); 20230707
+
+My idea follows the core idea of my solution to the previous daily problem. I designed two pointers and let them keep tracking of the length and used swaps. But I need to first check the maximum length of only swapping Ts and then check the maximum length of only swapping Fs.
+
+---
+
 ## Leetcode.2090. K radius Subarray Averages
 
 - Independently solved; 20230620;
