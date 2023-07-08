@@ -395,3 +395,11 @@ I used priority queue to select the candidates with the lowest cost.
 - Learned from solution; 20230524
 
 The basic idea is the same as Leetcode.703 from yesterday. You need to maintain some data structure of size k and pop something out when the size is over k.
+
+---
+
+## Leetcode.2551. Put Marbles In Bags
+
+- Learned from solution; 20230708
+
+This is an interesting problem. The core idea to solve this problem is the "stars and bars" idea from the CS173 course. One possible selection of subarrays can be defined by the pivots of subarrays.
