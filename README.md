@@ -350,6 +350,14 @@ Union Find uses path compression to accelerate the algorithm. I guess I can also
 
 ---
 
+## Leetcode.2272. Substring with Largest Variance
+
+- Learned from solution; 20230709
+
+This problem can be transformed into a form of the Largest Sum Contigous Subarray problem. There are two difficulties. The variance is defined by differences instead of sums, and all pairs of characters must be looped through.
+
+---
+
 ## Leetcode.2305. Fair Distribution of Cookies
 
 - Learned from solution; 20230701
