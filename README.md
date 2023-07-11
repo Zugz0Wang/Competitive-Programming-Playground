@@ -124,6 +124,14 @@ Handling the case of swapping identical characters is the key to solve this prob
 
 ---
 
+## Leetcode.863. All nodes distance K in Binary Tree
+
+- Independently solved; 20230711
+
+I first find the path of nodes to the target node and then trace back the track and BFS along the path while handling duplicated cases by memorizing the path direction.
+
+---
+
 ## Leetcode.864. Shortest Path to Get All Keys
 
 - Learned from solution; 20230629
@@ -354,7 +362,7 @@ Union Find uses path compression to accelerate the algorithm. I guess I can also
 
 - Learned from solution; 20230709
 
-This problem can be transformed into a form of the Largest Sum Contigous Subarray problem. There are two difficulties. The variance is defined by differences instead of sums, and all pairs of characters must be looped through.
+This problem can be transformed into a form of the Largest Sum ContigUous Subarray problem. There are two difficulties. The variance is defined by differences instead of sums, and all pairs of characters must be looped through.
 
 ---
 
