@@ -106,6 +106,14 @@ I used BFS to solve this problem. I forgot that the graphs might have multiple c
 
 ---
 
+## Leetcode.802. Find Eventual Safe States
+
+- Refined from solution; 20230712
+
+I have considered a similar question about determining the winner of a small game. Maintaining a list of degrees to help check which state can be fully determined is very helpful for determining which state should be in-queued.
+
+---
+
 ## Leetcode.837. New 21 Game 
 
 - Independently solved (Hinted by Big O); 20230525
