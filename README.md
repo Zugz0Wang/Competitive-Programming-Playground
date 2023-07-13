@@ -18,6 +18,14 @@ Similar to the previous Single Number I, every bit will be flipped 3n + 1 times.
 
 ---
 
+## Leetcode.207. Course Schedule
+
+- Independently solved; 20230713
+
+Similar to the previous daily problem [Leetcode.802](#leetcode802-find-eventual-safe-states), using a degree array to track the in-ward edges and pushing the "unlocked" nodes to a BFS queue can solve this problem.
+
+---
+
 ## Leetocde.209. Minimum Size Subarray Sum
 
 - Independently solved; 20230706
