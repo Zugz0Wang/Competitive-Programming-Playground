@@ -220,6 +220,14 @@ Dynamic Programming. I still don't understand why I need to update i1 to the "up
 
 ---
 
+## Leetcode.1218. Longest arithmetic Subsequence Of Given Difference
+
+- Learned from solution (busy today); 20230714
+
+A dynamic programming question. The maximum length ending at the current equals the maximum length ending at a previous element with the correct difference plus one. 
+
+---
+
 ## Leetcode.1231. Check If It Is A Straight Line
 
 - Independently solved; 20230605
