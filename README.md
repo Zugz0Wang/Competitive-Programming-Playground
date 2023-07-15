@@ -340,6 +340,14 @@ Looping through the gains and calculating the absolute altitude.
 
 ---
 
+## Leetcode.1751. Maximum Number Of Events that Can be Attended II
+
+- Learned from solution(busy); 20230715
+
+Dynamic programming. Using 1D arrays to represent rectangular 2D or more arrays seems to be more space and time efficient.
+
+---
+
 ## Leetcode.1802. Maximum Value At A Given Index In A Bounded Array
 
 - Independently solved; 20230610
