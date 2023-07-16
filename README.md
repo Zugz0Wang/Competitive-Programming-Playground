@@ -188,6 +188,14 @@ A typical question for BFS. I reused the grid matrix as the visited set.
 
 ---
 
+## Leetcode.1125. Smallest Sufficient Team
+
+- Learned? from solution; 20230716
+
+The key is how to update the dynamic programming array.
+
+---
+
 ## Leetcode.1140. Stone Game II
 
 - Unknown, probably learned; 20220822
