@@ -68,6 +68,14 @@ Not completely sure how I managed to solve it independently. I'm just having a i
 
 ---
 
+## Leetcode.445. Add Two Numbers II
+
+- Independently solved (read the follow up); 20230717
+
+First reverse the number list, and then add them up with a carry number.
+
+---
+
 ## Leetcode.530. Minimum Absolute Difference in BST
 
 - Independently solved; 20230614
