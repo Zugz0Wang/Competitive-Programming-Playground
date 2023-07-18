@@ -18,6 +18,14 @@ Similar to the previous Single Number I, every bit will be flipped 3n + 1 times.
 
 ---
 
+## Leetcode.146. LRU Cache
+
+- Independently solved(check previous LFU cache); 20230718
+
+I used a doubly-linked list to solve this. DDL can move any known element to the front of the list and pop an element at the back of the list in constant time. To solve those problems with complexity requirements, I need to find out data structures with smaller time complexities. 
+
+---
+
 ## Leetcode.207. Course Schedule
 
 - Independently solved; 20230713
