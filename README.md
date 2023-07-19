@@ -76,6 +76,14 @@ Not completely sure how I managed to solve it independently. I'm just having a i
 
 ---
 
+## Leetcode.435. Non-overlapping Intervals
+
+- Learned from solution; 20230719
+
+Sorting the intervals first is the key to solve this problem.
+
+---
+
 ## Leetcode.445. Add Two Numbers II
 
 - Independently solved (read the follow up); 20230717
