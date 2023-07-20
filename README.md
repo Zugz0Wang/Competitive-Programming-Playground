@@ -122,6 +122,14 @@ Travelling and not understanding. I guess this a-few-line solution requires some
 
 ---
 
+## Leetcode.735. Asteroid Collision
+
+- Independently solved(learned to use stack); 20230720
+
+Simulating the process by adding asteroids one by one solves this problem. But using an array and using zeros as an empty flag is too slow.
+
+---
+
 ## Leetcode.744. Find Smallest Letter Greater Than Target
 
 - Independently solved; 20230609
