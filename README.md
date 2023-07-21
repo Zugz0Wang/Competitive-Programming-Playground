@@ -106,6 +106,14 @@ This problem is about counting the connected component of a graph. I used Union 
 
 ---
 
+## Leetcode.673. Number Of Longest Increasing Subsequence
+
+- Independently solved; 20230721
+
+An upgraded Dynamic Programming technique from the Length of the Longest Increasing Subsequence. Instead of only keeping track of the length at each index, also tracking the number of subsequences with that length solves the problem.
+
+---
+
 ## Leetcode.703. Kth Largest Element In A Stream 
 
 - Independently solved; 20230523
