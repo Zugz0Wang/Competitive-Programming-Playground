@@ -114,6 +114,14 @@ An upgraded Dynamic Programming technique from the Length of the Longest Increas
 
 ---
 
+## Leetcode.688. Knight Probability In Chessboard
+
+- Independently solved; 20230722
+
+Recursion with dynamic programming would solve the problem. I also used the symmetry of the board to accelerate the process.
+
+---
+
 ## Leetcode.703. Kth Largest Element In A Stream 
 
 - Independently solved; 20230523
