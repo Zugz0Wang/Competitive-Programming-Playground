@@ -204,6 +204,14 @@ The main takeaway from this question is the idea of putting other information li
 
 ---
 
+## Leetcode.894. All Possible Binary Tree
+
+- Independently solved; 20220821
+
+All full binary tree of size $n$ can be derived from all permutations of full left binary trees and full right binary trees that have a sum of size $n - 1$; 
+
+---
+
 ## Leetcode.934. Shortest Bridge 
 
 - Independently solved; 20230521
