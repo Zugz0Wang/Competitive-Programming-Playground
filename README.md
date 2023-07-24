@@ -10,6 +10,14 @@ output: pdf_document
 
 ---
 
+## Leetcode.50. Pow(x, n)
+
+- Independently solved; 20230724
+
+The standard quick power algorithm would solve the problem with a small modification for the negative n. A corner case is that the min integer can't flip to the max integer.
+
+---
+
 ## Leetcode.137. Single Number II
 
 - Independently solved; 20230704
