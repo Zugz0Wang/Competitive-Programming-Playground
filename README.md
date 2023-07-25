@@ -188,6 +188,14 @@ In this question, while also examing the basic idea of dynamic programming, the 
 
 ---
 
+## Leetcode.852. Peak Index in a Mountain Array
+
+- Independently solved (old); 20230101
+
+A binary search problem.
+
+---
+
 ## Leetcode.859. Buddy Strings
 
 - Independently solved; 20230703
