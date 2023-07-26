@@ -436,6 +436,14 @@ This is a textbook Binary Search question. Be careful with integer overflows.
 
 ---
 
+## Leetcode.1870. Minimum Speed to Arrive on Time
+
+- Hinted; 20230726
+
+This is another Binary Search question. The last trip is the most important one.
+
+---
+
 ## Leetcode.1970. Last Day Where You Can Still Cross
 
 - Independently solved (verified my idea through tags); 20230630
