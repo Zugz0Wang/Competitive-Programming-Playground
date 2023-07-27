@@ -478,6 +478,14 @@ Union Find uses path compression to accelerate the algorithm. I guess I can also
 
 ---
 
+## Leetcode.2141. Maximum Running Time of N Computers
+
+- Learned from solution; 20230727
+
+Binary Search can solve this problem. The key is how to calculate whether a time is valid for the computers to run with given batteries.
+
+---
+
 ## Leetcode.2272. Substring with Largest Variance
 
 - Learned from solution; 20230709
