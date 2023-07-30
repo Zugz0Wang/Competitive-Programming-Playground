@@ -100,6 +100,14 @@ First reverse the number list, and then add them up with a carry number.
 
 ---
 
+## Leetcode.486. Predict The Winner
+
+- Independently solved; 20230728
+
+Dynamic Programming solves this problem. I used a 2D array to represent the difference between the scores of the first-hand player and the second player of each game state.
+
+---
+
 ## Leetcode.530. Minimum Absolute Difference in BST
 
 - Independently solved; 20230614
@@ -111,6 +119,14 @@ Textbook Binary Search Tree in order traversal (and keeping track of the previou
 ## Leetcode.547. Number Of Provinces
 
 This problem is about counting the connected component of a graph. I used Union Find to solve it. BFS would also work.
+
+---
+
+## Leetcode.664. Strange Printer
+
+- Learned from soluion; 20230730
+
+I used dynamic programming to solve this problem. The key to solving this problem is combining the results of several sub-problems.
 
 ---
 
@@ -175,6 +191,14 @@ I used BFS to solve this problem. I forgot that the graphs might have multiple c
 - Refined from solution; 20230712
 
 I have considered a similar question about determining the winner of a small game. Maintaining a list of degrees to help check which state can be fully determined is very helpful for determining which state should be in-queued.
+
+---
+
+## Leetcode.808. Soup Servings
+
+- Learned from solution (the 4600); 20230729
+
+Top-down dynamic programming solves this problem. At first, I thought using DP to solve this problem was impossible because of the problem size.
 
 ---
 
