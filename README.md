@@ -18,6 +18,14 @@ The standard quick power algorithm would solve the problem with a small modifica
 
 ---
 
+## Leetcode.77. Combinations
+
+- Independently solved; 20230801
+
+I used DFS to solve this problem, using a path vector to track the current selection and pushing it to the answer vector when all k integers are selected.
+
+---
+
 ## Leetcode.137. Single Number II
 
 - Independently solved; 20230704
@@ -151,6 +159,14 @@ Recursion with dynamic programming would solve the problem. I also used the symm
 - Independently solved; 20230523
 
 I used a map, a binary search tree, to solve this problem. This question is a good practice for iterators.
+
+---
+
+## Leetcode.712. Minimum ASCII Delete Sum for Two Strings
+
+- Hinted from hints; 20230731
+
+I used a bottom-up DP array which each element tracks the minimum ASCII to match the two substrings from the original strings to solve this problem.
 
 ---
 
