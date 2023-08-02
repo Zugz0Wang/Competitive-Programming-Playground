@@ -10,6 +10,14 @@ output: pdf_document
 
 ---
 
+## Leetcode.46. Permutation
+
+- Independently solved; 20230802
+
+Similar to the Problem about Combination, I used a DFS to solve it, but instead of passing the index of a previously selected element, I passed an integer to track which numbers have been selected.
+
+----
+
 ## Leetcode.50. Pow(x, n)
 
 - Independently solved; 20230724
