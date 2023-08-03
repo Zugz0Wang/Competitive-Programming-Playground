@@ -10,11 +10,19 @@ output: pdf_document
 
 ---
 
+## Leetcode.17. Letter Combinations Of A phone Number
+
+- Independently solved; 20230803
+
+Similar to the Problem about Permutation(LC.46), I used DFS to solve it.
+
+---
+
 ## Leetcode.46. Permutation
 
 - Independently solved; 20230802
 
-Similar to the Problem about Combination, I used a DFS to solve it, but instead of passing the index of a previously selected element, I passed an integer to track which numbers have been selected.
+Similar to the Problem about Combination, I used DFS to solve it, but instead of passing the index of a previously selected element, I passed an integer to track which numbers have been selected.
 
 ----
 
