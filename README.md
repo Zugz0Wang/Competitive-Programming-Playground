@@ -50,6 +50,14 @@ Similar to the previous Single Number I, every bit will be flipped 3n + 1 times.
 
 ---
 
+## Leetcode.139. Word Break
+
+- Learned from solution; 20230803
+
+At first, I tried to solve it, recursively searching from the beginning with a Prefix tree. Then, I learned how to apply Dynamic Programming to this context while still using a Prefix tree: at each index, trying to find a word to fit in from behind while the substring at the front is still word-breakable.
+
+---
+
 ## Leetcode.146. LRU Cache
 
 - Independently solved(check previous LFU cache); 20230718
