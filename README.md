@@ -42,6 +42,14 @@ I used DFS to solve this problem, using a path vector to track the current selec
 
 ---
 
+## Leetcode.95. Unique Binary Search Tree II
+
+- Archived; 20220817
+
+Recursively combining the results of subproblems solve the problem. I guess this can be accelerated by a DP table, which I was not familiar with at the time I solved it.
+
+---
+
 ## Leetcode.137. Single Number II
 
 - Independently solved; 20230704
