@@ -300,6 +300,14 @@ All full binary tree of size $n$ can be derived from all permutations of full le
 
 ---
 
+## Leetcode.920. Number of Music Playlists
+
+- Independently solved; 20230806
+
+A top-down DP would solve it. I actually didn't fully understand the details of the solution I have read. I modified it with my own understanding of the two subcases: listen to "new" songs or relisten old songs "k" songs before.
+
+---
+
 ## Leetcode.934. Shortest Bridge 
 
 - Independently solved; 20230521
