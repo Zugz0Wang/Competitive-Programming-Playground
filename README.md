@@ -34,6 +34,14 @@ The standard quick power algorithm would solve the problem with a small modifica
 
 ---
 
+## Leetcode.74. Search A 2d Matrix
+
+- Independently solved; 20220906
+
+A Binary Search would solve this problem, using an 1-d representation of the index of the 2-d matrix.
+
+---
+
 ## Leetcode.77. Combinations
 
 - Independently solved; 20230801
