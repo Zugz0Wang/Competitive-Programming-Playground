@@ -18,6 +18,14 @@ Similar to the Problem about Permutation(LC.46), I used DFS to solve it.
 
 ---
 
+## Leetcode.33. Search in Rotated Sorted Array
+
+- Archived(I); 20230110
+
+An interesting Binary Search Problem. The pivot value will always be at the first, and I used that value to determine the search direction.
+
+---
+
 ## Leetcode.46. Permutation
 
 - Independently solved; 20230802
