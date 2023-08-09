@@ -643,3 +643,9 @@ The basic idea is the same as Leetcode.703 from yesterday. You need to maintain 
 - Learned from solution; 20230708
 
 This is an interesting problem. The core idea to solve this problem is the "stars and bars" idea from the CS173 course. One possible selection of subarrays can be defined by the pivots of subarrays.
+
+## Leetcode.2616. Minimize The Maximum Difference Of Pairs
+
+- Hinted (learned the Binary Search Solution)
+
+The official hint told me to use DP, but it seems DP can't pass the final few testcases. Good question though. It helped me to practice DP with space optimization.
