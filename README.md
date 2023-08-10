@@ -58,6 +58,14 @@ I used DFS to solve this problem, using a path vector to track the current selec
 
 ---
 
+## Leetcode.81. Search In Rotated Sorted Array II
+
+- Independently solved(based on LC.33); 20230810
+
+I still used Binary Search to solve this problem but with one alternation. When the "mid_value" is equal to the "pivot_value", the target could be at either side of the "mid_value." 
+
+---
+
 ## Leetcode.95. Unique Binary Search Tree II
 
 - Archived; 20220817
