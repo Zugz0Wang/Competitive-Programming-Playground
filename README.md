@@ -172,6 +172,14 @@ Dynamic Programming solves this problem. I used a 2D array to represent the diff
 
 ---
 
+## Leetcode.518. Coin Change II
+
+- Independently solved; 20230811
+
+I used Dynamic Programming to solve this problem. Be careful with the duplicated cases since the question is asking for the number of combinations.
+
+---
+
 ## Leetcode.530. Minimum Absolute Difference in BST
 
 - Independently solved; 20230614
