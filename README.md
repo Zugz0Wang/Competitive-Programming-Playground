@@ -42,6 +42,14 @@ The standard quick power algorithm would solve the problem with a small modifica
 
 ---
 
+## Leetcode.63. Unique Path II
+
+- Archived; 20220818
+
+I used dynamic programming to solve it. I guess I can use a 1-d array to represent the dp table now.
+
+---
+
 ## Leetcode.74. Search A 2d Matrix
 
 - Independently solved; 20220906
