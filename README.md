@@ -638,6 +638,14 @@ Looping through all the columns and rows and checking whether all elements are t
 
 ---
 
+## Leetcode.2369. Check If There Is A Valid Partition For the Array
+
+- Independently solved; 20230813
+
+A textbook Dynamic Programming problem. The key idea of DP is using the results of previous subproblems to get the answer for the current problem.
+
+---
+
 ## Leetcode.2448. Minimum Cost To Make Array Equal
 
 - Hinted(but had technical issues about MLE); 20230621
