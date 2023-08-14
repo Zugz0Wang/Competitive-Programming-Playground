@@ -122,6 +122,14 @@ A slide window problem. The idea is to calculate the minimum length of valid sub
 
 ---
 
+## Leetcode.215. Kth Largest Element in an Array
+
+- Independently solved; 20230814
+
+I have always being thinking about using the heap idea to sort an array inplace. It indeed works.
+
+---
+
 ## Leetcode.228. Summary Ranges
 
 - Unknown, probably Independently solved; 20220814
