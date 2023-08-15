@@ -74,6 +74,14 @@ I still used Binary Search to solve this problem but with one alternation. When 
 
 ---
 
+## Leetcode.86. Partition List
+
+- Independently solved; 20230815
+
+I used two lists to store the partitioned nodes and merged the lists at the end. I think using a pointer pointing to the middle of the list as the head of the second list would also work, but it's harder to manage the cases.
+
+---
+
 ## Leetcode.95. Unique Binary Search Tree II
 
 - Archived; 20220817
