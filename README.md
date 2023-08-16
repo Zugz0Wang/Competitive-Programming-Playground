@@ -146,6 +146,14 @@ Simply looping through the vector and keeping track of continuous numbers.
 
 ---
 
+## Leetcode.239. Sliding Window Maximum
+
+- Independently solved, but slow; 20230816
+
+I used a map to calculate the maximum value in range, the right-most node always store the largest value.
+
+---
+
 ## Leetcode.347. Top K Frequent Elements 
 
 - Independently solved, but slow; 20230522
