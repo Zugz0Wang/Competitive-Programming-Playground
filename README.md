@@ -220,6 +220,14 @@ Textbook Binary Search Tree in order traversal (and keeping track of the previou
 
 ---
 
+## Leetcode.542. 01 Matrix
+
+- Independently solved; 20230817
+
+A textbook "BFS from multiple starting point" problem.
+
+---
+
 ## Leetcode.547. Number Of Provinces
 
 This problem is about counting the connected component of a graph. I used Union Find to solve it. BFS would also work.
@@ -553,6 +561,14 @@ I used Brute Force to iterate through all combinations of requests selection.
 - Independently solved; 20230529
 
 It's a simple counting problem. Keeping track of the number of remaining parking slots for each type of car and deducting the number of available slots respectively are the keys to solving this problem.
+
+---
+
+## Leetcode.1615. Maximal Network Rank
+
+- Independently solved; 20230817
+
+A good problem with edge cases to clam down the maddness from a 30h long flight.
 
 ---
 
