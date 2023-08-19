@@ -492,6 +492,14 @@ I used recursion to solve this problem. The time to inform a tree of employees e
 
 ---
 
+## Leetcode.1489. Find Critical And Pseudo-critical edges in MST
+
+- Hinted; 20230818
+
+A good question to review the concept of MST and Union Find. The key is to tell whether an edge is critical or pseudo-critical by checking the MST value with or without that edge. Be careful with the case that the graph having multiple components after the removal of a certain edge.
+
+---
+
 ## Leetcode.1493. Longest Subarray Of 1s After Deleting One Element
 
 - Independently solved; 20230705
