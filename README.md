@@ -196,6 +196,14 @@ First reverse the number list, and then add them up with a carry number.
 
 ---
 
+## Leetcode.459. Repeated Substring Pattern
+
+- Independently solved; 20230820
+
+A string problem. My solution is looping through all the possible length of substring and checking if its the correct substring.
+
+---
+
 ## Leetcode.486. Predict The Winner
 
 - Independently solved; 20230728
@@ -449,6 +457,14 @@ Textbook BFS and Binary Tree Level Order Traversal problem. An alternative solut
 - Learned from solution; 20230617
 
 Dynamic Programming. I still don't understand why I need to update i1 to the "upper bound" of the previous largest value before using the array of dynamic programming.
+
+---
+
+## Leetcode.1203. Sort Items By Groups Respecting dependencies
+
+- Learned fro solution; 20230819
+
+An interesting problem. Constructing extra nodes to group a group of nodes together is brilliant. I guess I can make a ton of graphs for my graph-layout algorithm.
 
 ---
 
