@@ -242,6 +242,14 @@ This problem is about counting the connected component of a graph. I used Union 
 
 ---
 
+## Leetcode.646. Maximum Length of Pair Chain
+
+- Independently solved; 20230825
+
+A Dynamic Programming problem. I used a DP array to keep track of the length of the chain end at the pair at that index. Sort the pairs beforehand, and then loop through the pairs to see if a pair can be concatenated behind another pair.
+
+---
+
 ## Leetcode.664. Strange Printer
 
 - Learned from soluion; 20230730
