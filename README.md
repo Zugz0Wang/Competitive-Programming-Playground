@@ -90,6 +90,14 @@ Recursively combining the results of subproblems solve the problem. I guess this
 
 ---
 
+## Leetcode.97. Interleaving String
+
+- Learned from solution; 20220825
+
+A Dynamic Programming question. The cell at the ith row and jth column of the table represents whether the substring with length i of the first string and the substring with length j of the second string can be interleaved by the third string.
+
+---
+
 ## Leetcode.137. Single Number II
 
 - Independently solved; 20230704
