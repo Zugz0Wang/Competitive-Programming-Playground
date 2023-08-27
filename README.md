@@ -188,6 +188,14 @@ Not completely sure how I managed to solve it independently. I'm just having a i
 
 ---
 
+## Leetcode.403. Frog Jump
+
+- Learned from solution; 20230826
+
+I think I should be able to solve it independently, but today is Saturday. A Dynamic Programming problem. The key point is to use the previous index of the previous stone to record the previous distance of jump. 
+
+---
+
 ## Leetcode.435. Non-overlapping Intervals
 
 - Learned from solution; 20230719
