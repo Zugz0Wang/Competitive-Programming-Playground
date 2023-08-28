@@ -146,6 +146,14 @@ I have always being thinking about using the heap idea to sort an array inplace.
 
 ---
 
+## Leetcode.225. Implement Stack using Queues
+
+- Independently solved; 20220814
+
+You can re-push poped out elements into the queue util the "top"(tail) one is reached.
+
+---
+
 ## Leetcode.228. Summary Ranges
 
 - Unknown, probably Independently solved; 20220814
