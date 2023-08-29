@@ -758,6 +758,14 @@ I used priority queue to select the candidates with the lowest cost.
 
 ---
 
+## Leetcode.2483. Minimum Penalty for a Shop
+
+- Independently solved; 20230828
+
+I used Prefix sum to quickly find out penalties for different closing hours and therefore the best hour.
+
+---
+
 ## Leetcode.2542. Maximum Subsequent Score 
 
 - Learned from solution; 20230524
