@@ -524,6 +524,14 @@ My solution loops through every bit of a,b, and c and checks whether I need to f
 
 ---
 
+## Leetcode.1326. Minimum Number of Taps to Open to Water a Garden
+
+- Learned from solution; 20230830
+
+A hard question during weekdays. I chose the DP approach. In the DP array, the value at index "i" represents the minimal value to cover this length. I loop through the taps and update the DP array. Note that the taps are sorted by nature to make this approach available.(I guess)
+
+---
+
 ## Leetcode.1351. Count Negative Numbers In A sorted Matrix
 
 - Independently solved; 20230608
@@ -731,6 +739,14 @@ At first, I was thinking in the wrong direction, which elements in the dynamic p
 - Hinted(verified not going to TLE); 20230613
 
 Looping through all the columns and rows and checking whether all elements are the same. An alternative would be transforming vectors into hashable strings. 
+
+---
+
+## Leetcode.2366. Minimum Replacements to Sort the Array
+
+- Learned from solution; 20230829
+
+A hard question during weekdays. Iterating through the nums from the end, I need to make sure that every element is smaller or equal to the previous one, and there is a way to calculate how to break down a num to smaller than a particular number.
 
 ---
 
