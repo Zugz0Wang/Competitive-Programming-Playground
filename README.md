@@ -801,3 +801,9 @@ This is an interesting problem. The core idea to solve this problem is the "star
 - Hinted (learned the Binary Search Solution)
 
 The official hint told me to use DP, but it seems DP can't pass the final few testcases. Good question though. It helped me to practice DP with space optimization.
+
+## Leetcode.2707. Extra CHaracters in a String
+
+- Hinted; 20230901
+
+Dynamic Programming Question: how can we build upon subproblems? With a new character in the string, we can search through the dictionary to see if we have something matched and then put the previous answer here.
