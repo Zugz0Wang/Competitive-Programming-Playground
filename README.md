@@ -106,6 +106,14 @@ Similar to the previous Single Number I, every bit will be flipped 3n + 1 times.
 
 ---
 
+## Leetcode.138. Copy List with Random Pointer
+
+- Independently solved; 20230904
+
+I used a map to record the mapping between old and new copied list nodes. An interesting problem.
+
+---
+
 ## Leetcode.139. Word Break
 
 - Learned from solution; 20230803
