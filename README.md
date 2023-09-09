@@ -32,7 +32,7 @@ An interesting Binary Search Problem. The pivot value will always be at the firs
 
 Similar to the Problem about Combination, I used DFS to solve it, but instead of passing the index of a previously selected element, I passed an integer to track which numbers have been selected.
 
-----
+---
 
 ## Leetcode.50. Pow(x, n)
 
@@ -70,7 +70,7 @@ I used DFS to solve this problem, using a path vector to track the current selec
 
 - Independently solved(based on LC.33); 20230810
 
-I still used Binary Search to solve this problem but with one alternation. When the "mid_value" is equal to the "pivot_value", the target could be at either side of the "mid_value." 
+I still used Binary Search to solve this problem but with one alternation. When the "mid_value" is equal to the "pivot_value", the target could be at either side of the "mid_value."
 
 ---
 
@@ -102,7 +102,7 @@ A Dynamic Programming question. The cell at the ith row and jth column of the ta
 
 - Independently solved; 20230704
 
-Similar to the previous Single Number I, every bit will be flipped 3n + 1 times. I need to make those numbers that occurred three times cancel with themselves, and therefore I used a ternary integer consisting of two binary integers to solve this problem. 
+Similar to the previous Single Number I, every bit will be flipped 3n + 1 times. I need to make those numbers that occurred three times cancel with themselves, and therefore I used a ternary integer consisting of two binary integers to solve this problem.
 
 ---
 
@@ -126,7 +126,7 @@ At first, I tried to solve it, recursively searching from the beginning with a P
 
 - Independently solved(check previous LFU cache); 20230718
 
-I used a doubly-linked list to solve this. DDL can move any known element to the front of the list and pop an element at the back of the list in constant time. To solve those problems with complexity requirements, I need to find out data structures with smaller time complexities. 
+I used a doubly-linked list to solve this. DDL can move any known element to the front of the list and pop an element at the back of the list in constant time. To solve those problems with complexity requirements, I need to find out data structures with smaller time complexities.
 
 ---
 
@@ -178,7 +178,7 @@ I used a map to calculate the maximum value in range, the right-most node always
 
 ---
 
-## Leetcode.347. Top K Frequent Elements 
+## Leetcode.347. Top K Frequent Elements
 
 - Independently solved, but slow; 20230522
 
@@ -196,7 +196,15 @@ This is an interesting question. I used a 2D plane to help me clean my thoughts.
 
 ---
 
-## Leetcode.399. Evaluate Division 
+## Leetcode.377. Combination Sum IV
+
+- Independently solved; 20230908
+
+A dynamic programming problem. The combination sum of target is the sum of combination sums of subproblems of all target minus numbers stored in nums. But, I think actually the author recommends using a top-down approach because some numbers other than the target might have super large values compared to the combination sum of the target.
+
+---
+
+## Leetcode.399. Evaluate Division
 
 - Independently solved; 20230520
 
@@ -208,7 +216,7 @@ Not completely sure how I managed to solve it independently. I'm just having a i
 
 - Learned from solution; 20230826
 
-I think I should be able to solve it independently, but today is Saturday. A Dynamic Programming problem. The key point is to use the previous index of the previous stone to record the previous distance of jump. 
+I think I should be able to solve it independently, but today is Saturday. A Dynamic Programming problem. The key point is to use the previous index of the previous stone to record the previous distance of jump.
 
 ---
 
@@ -306,7 +314,7 @@ Recursion with dynamic programming would solve the problem. I also used the symm
 
 ---
 
-## Leetcode.703. Kth Largest Element In A Stream 
+## Leetcode.703. Kth Largest Element In A Stream
 
 - Independently solved; 20230523
 
@@ -346,7 +354,7 @@ A textbook Binary Search question.
 
 ---
 
-## Leetcode.785. Is Graph Bipartite 
+## Leetcode.785. Is Graph Bipartite
 
 - Independently solved; 20230519
 
@@ -370,13 +378,13 @@ Top-down dynamic programming solves this problem. At first, I thought using DP t
 
 ---
 
-## Leetcode.837. New 21 Game 
+## Leetcode.837. New 21 Game
 
 - Independently solved (Hinted by Big O); 20230525
 
-Following the main idea of the previous few days, this question also tests the concept of maintaining some data structure of a specific size, popping old elements when new elements arrive. 
+Following the main idea of the previous few days, this question also tests the concept of maintaining some data structure of a specific size, popping old elements when new elements arrive.
 
-In this question, while also examing the basic idea of dynamic programming, the critical point is calculating the sum of probabilities of previously calculated information. To achieve that, instead of looping through, I use a circular queue to quickly calculate the sum of the previous "maxPts" number of probability. The circular queue allows me to update the sum of probabilities in constant time. You can maintain a sum in a variable, deduct the sum of the first element of the queue, and add the incoming new probability to quickly update the sum. 
+In this question, while also examing the basic idea of dynamic programming, the critical point is calculating the sum of probabilities of previously calculated information. To achieve that, instead of looping through, I use a circular queue to quickly calculate the sum of the previous "maxPts" number of probability. The circular queue allows me to update the sum of probabilities in constant time. You can maintain a sum in a variable, deduct the sum of the first element of the queue, and add the incoming new probability to quickly update the sum.
 
 ---
 
@@ -416,7 +424,7 @@ The main takeaway from this question is the idea of putting other information li
 
 - Independently solved; 20220821
 
-All full binary tree of size $n$ can be derived from all permutations of full left binary trees and full right binary trees that have a sum of size $n - 1$; 
+All full binary tree of size $n$ can be derived from all permutations of full left binary trees and full right binary trees that have a sum of size $n - 1$;
 
 ---
 
@@ -428,7 +436,7 @@ A top-down DP would solve it. I actually didn't fully understand the details of 
 
 ---
 
-## Leetcode.934. Shortest Bridge 
+## Leetcode.934. Shortest Bridge
 
 - Independently solved; 20230521
 
@@ -480,7 +488,7 @@ This question tests the idea of memorized DFS. The critical trick would be using
 
 - Independently solved; 20230611
 
-This question reminds me of the git architecture. I used a vector of structs to record the change of values of each index from a start snapshot id to an end snapshot id. At first, I chose to change every end value of the last element of every index at every snapshot, which led to a TLE. To improve the time complexity, I chose to use an INF value at the last element of all indices and update the end value only when it's changing, such that I only need to update the snapshot id when the snapshot function is called. 
+This question reminds me of the git architecture. I used a vector of structs to record the change of values of each index from a start snapshot id to an end snapshot id. At first, I chose to change every end value of the last element of every index at every snapshot, which led to a TLE. To improve the time complexity, I chose to use an INF value at the last element of all indices and update the end value only when it's changing, such that I only need to update the snapshot id when the snapshot function is called.
 
 ---
 
@@ -512,7 +520,7 @@ An interesting problem. Constructing extra nodes to group a group of nodes toget
 
 - Learned from solution (busy today); 20230714
 
-A dynamic programming question. The maximum length ending at the current equals the maximum length ending at a previous element with the correct difference plus one. 
+A dynamic programming question. The maximum length ending at the current equals the maximum length ending at a previous element with the correct difference plus one.
 
 ---
 
@@ -595,7 +603,8 @@ Textbook Dijkstra problem.
 This problem can be solved by dynamic programming. I came up with a bottom-up dynamic programming technique, which calculates the subproblems with a few cuts and builds up information to solve larger subproblems.
 
 ---
-## Leetcode.1557. Minimum Number of Vertices to Reach All Nodes 
+
+## Leetcode.1557. Minimum Number of Vertices to Reach All Nodes
 
 - Independently solved; 20230518
 
@@ -746,7 +755,7 @@ At first, I was thinking in the wrong direction, which elements in the dynamic p
 
 - Hinted(verified not going to TLE); 20230613
 
-Looping through all the columns and rows and checking whether all elements are the same. An alternative would be transforming vectors into hashable strings. 
+Looping through all the columns and rows and checking whether all elements are the same. An alternative would be transforming vectors into hashable strings.
 
 ---
 
@@ -790,7 +799,7 @@ I used Prefix sum to quickly find out penalties for different closing hours and 
 
 ---
 
-## Leetcode.2542. Maximum Subsequent Score 
+## Leetcode.2542. Maximum Subsequent Score
 
 - Learned from solution; 20230524
 
