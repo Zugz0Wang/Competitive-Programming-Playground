@@ -532,6 +532,14 @@ I constructed a direction struct to help me handle vertical cases.
 
 ---
 
+## Leetcode.1282. Group the People Given the Group Size They Belong To
+
+- Hinted; 20230910
+
+I sorted the groupSizes along with their indices and group these indices together.
+
+---
+
 ## Leetcode.1318. Minimum Flips To Make A or B Equal To C
 
 - Independently solved; 20230607
@@ -553,6 +561,14 @@ A hard question during weekdays. I chose the DP approach. In the DP array, the v
 - Independently solved; 20230608
 
 Since the matrix is sorted from top left to bottom right, if we can find an element with a negative value, all elements from the bottom right area would be negative. So, we can start from the bottom left and follow along the "stairs" to get the number of negative numbers.
+
+---
+
+## Leetcode.1359. Count All Valid Pickup and Delivery Options
+
+- Independently solved; 20230909
+
+Given the previous number of valid options, you can insert the pick-up timeslot into 2 \* n + 1 and insert the delivery timeslot behind the pickup timeslot. And that leads to an arithmetic sum.
 
 ---
 
