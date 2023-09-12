@@ -669,6 +669,14 @@ A good problem with edge cases to clam down the maddness from a 30h long flight.
 
 ---
 
+## Leetcode.1647. Minimum Deletions to Make Character Frequencies Unique
+
+- Independently solved; 20230912
+
+I would consider this problem a Dynamic Programming problem: when adding a new larger(or equal to) frequency to a valid array of frequencies, how will the result count change?
+
+---
+
 ## Leetcode.1732. Find the Highest Altitude
 
 - Independently solved; 20230619
