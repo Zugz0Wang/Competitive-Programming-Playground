@@ -98,6 +98,14 @@ A Dynamic Programming question. The cell at the ith row and jth column of the ta
 
 ---
 
+## Leetcode.135. Candy
+
+- Independently solved; 20230913
+
+I used the updatable topology priority queue from my Graph-Layout project to solve this problem. I got a one-pass!!! (faster than 5% hahahaha)
+
+---
+
 ## Leetcode.137. Single Number II
 
 - Independently solved; 20230704
