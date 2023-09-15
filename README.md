@@ -186,6 +186,14 @@ I used a map to calculate the maximum value in range, the right-most node always
 
 ---
 
+## Leetcode.332. Reconstruct Itinerary
+
+- Learned from solution; 20230914
+
+With my summer experience of reading MTX graph files, I think mapping strings to integers is a good approach for performance improvement.
+
+---
+
 ## Leetcode.347. Top K Frequent Elements
 
 - Independently solved, but slow; 20230522
@@ -650,6 +658,14 @@ This is an excellent question that combines the knowledge of Math, recursion, an
 - Independently solved (hinted by tags and titles); 20230625
 
 This is a traditional recursion problem. You need to add one to the answer if the start city equals the end city.
+
+---
+
+## Leetcode.1584. Min Cost To Connect All Points
+
+- Independently solved; 20230914
+
+I used Minimum Spanning Tree with Union-Find and Priority Queue to solve this problem.
 
 ---
 
