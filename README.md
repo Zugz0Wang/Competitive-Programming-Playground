@@ -186,11 +186,27 @@ I used a map to calculate the maximum value in range, the right-most node always
 
 ---
 
+## Leetcode.316. Remove Duplicate Letters
+
+- Learned from solution; 20230925
+
+Monotonic stack. I tried to use a linked list structure but failed.
+
+---
+
 ## Leetcode.332. Reconstruct Itinerary
 
 - Learned from solution; 20230914
 
 With my summer experience of reading MTX graph files, I think mapping strings to integers is a good approach for performance improvement.
+
+---
+
+## Leetcode.343. Integer Break
+
+- Independently solved; 20231006
+
+A Dynamic Programming problem. For a number, you can try to find a break point that maximizes the product of the parts, or their individual sub "products" if they are larger.
 
 ---
 
@@ -217,6 +233,14 @@ This is an interesting question. I used a 2D plane to help me clean my thoughts.
 - Independently solved; 20230908
 
 A dynamic programming problem. The combination sum of target is the sum of combination sums of subproblems of all target minus numbers stored in nums. But, I think actually the author recommends using a top-down approach because some numbers other than the target might have super large values compared to the combination sum of the target.
+
+---
+
+## Leetcode.389. Find the Difference
+
+- Independently solved; 20220825
+
+First, count the number of occurence of all 26 lower cased alphabetical character. Minuse the counting number for the original string. You will then find the non-zero char represent the answer.
 
 ---
 
@@ -249,6 +273,14 @@ Sorting the intervals first is the key to solve this problem.
 - Independently solved (read the follow up); 20230717
 
 First reverse the number list, and then add them up with a carry number.
+
+---
+
+## Leetcode.456. 132 Pattern
+
+- Learned from solution; 20230929
+
+The solution was pretty elegent. It's hard to intuitively figure out why that solution is always correct. You update the cached third element if you find a bigger one. Return true when you find a number smaller than the cached third. I might be back to rethink this.
 
 ---
 
@@ -378,6 +410,14 @@ I used BFS to solve this problem. I forgot that the graphs might have multiple c
 
 ---
 
+## Leetcode.799. Champagne Tower
+
+- Learned from solution; 20230923
+
+I learned to use two layer of double vectors to simulate the process.
+
+---
+
 ## Leetcode.802. Find Eventual Safe States
 
 - Refined from solution; 20230712
@@ -401,6 +441,16 @@ Top-down dynamic programming solves this problem. At first, I thought using DP t
 Following the main idea of the previous few days, this question also tests the concept of maintaining some data structure of a specific size, popping old elements when new elements arrive.
 
 In this question, while also examing the basic idea of dynamic programming, the critical point is calculating the sum of probabilities of previously calculated information. To achieve that, instead of looping through, I use a circular queue to quickly calculate the sum of the previous "maxPts" number of probability. The circular queue allows me to update the sum of probabilities in constant time. You can maintain a sum in a variable, deduct the sum of the first element of the queue, and add the incoming new probability to quickly update the sum.
+
+---
+
+## Leetcode.847. Shortest Path Visiting All Nodes
+
+- Learned from solution; 20230916
+
+The key concept in solving this problem is the BFS with internal states, or, say, another way of representing the current position and neighbors. It's hard to come up with that when I'm only thinking about the actual location of a state. This problem is similar to another maze problem that requires keys to open doors.
+
+The next interesting part of this problem is how to use the bitmask to represent all visited nodes and the current node.
 
 ---
 
@@ -436,11 +486,35 @@ The main takeaway from this question is the idea of putting other information li
 
 ---
 
+## Leetcode.880. Decoded String at Index
+
+- Independently solved; 20230927
+
+Each time we meet a number, we can form a node that records the previous node, the number of copies, and some extra characters following the number. We can search through the "stack" by telling whether the "k" lies in the "extra" region or the previous node, and then we can find what the requested character is.
+
+---
+
 ## Leetcode.894. All Possible Binary Tree
 
 - Independently solved; 20220821
 
 All full binary tree of size $n$ can be derived from all permutations of full left binary trees and full right binary trees that have a sum of size $n - 1$;
+
+---
+
+## Leetcode.896. Monotonic Array
+
+- Independently solved; 20230929
+
+I used a flag to determine whether there are solid evidences of decreasing or increasing.
+
+---
+
+## Leetcode.905. Sort Array By Parity
+
+- Independently solved; 20230927
+
+The solution is identical to the process of partition in Quick Sort, except you don't need to put a particular element in the middle.
 
 ---
 
@@ -473,6 +547,14 @@ Like the question from yesterday, the key to solve this problem is thinking abou
 - Independently solved (hinted by titles of solutions and tags); 20230623
 
 A strange dynamic programming problem. The small problem size limit reminds me to think about O($n^2$) methods.
+
+---
+
+## Leetcode.1048. Longest String Chain
+
+- Independently solved; 20230922
+
+I would say this is also a Dynamic Programming question. Becuase of the definition, a derived string can find its parent by removing each of its characters and use map to find whether there is a such parent. Then, its DP value can build upon its parent. We can record the max length during that process.
 
 ---
 
@@ -572,6 +654,14 @@ A hard question during weekdays. I chose the DP approach. In the DP array, the v
 
 ---
 
+## Leetcode.1337. The K Weakest Rows in a Matrix
+
+- Independently solved(I guess); 20230918
+
+We can use binary search to quickly determine the number of soldiers in a row. And then using sorting or priority queue to find the first K weakest rows.
+
+---
+
 ## Leetcode.1351. Count Negative Numbers In A sorted Matrix
 
 - Independently solved; 20230608
@@ -593,6 +683,14 @@ Given the previous number of valid options, you can insert the pick-up timeslot 
 - Independently solved; 20230603
 
 I used recursion to solve this problem. The time to inform a tree of employees equals inform time of the current head plus the maximum time for its sub-division heads to inform their employees.
+
+---
+
+## Leetcode.1420. Build Array Where You Can Find Maximum Exactly K Comparison
+
+- Modified from solution; 20231007
+
+I understand the basic the Dynamic Programming idea. A state can whether maintain its previous K by adding a smaller than curr-largest element or update it by adding a larger than curr-largest element.
 
 ---
 
@@ -698,6 +796,14 @@ A good problem with edge cases to clam down the maddness from a 30h long flight.
 - Independently solved; 20230912
 
 I would consider this problem a Dynamic Programming problem: when adding a new larger(or equal to) frequency to a valid array of frequencies, how will the result count change?
+
+---
+
+## Leetcode.1658. Minimum Operations to Reduce X to Zero
+
+- Independently solved(Hinted); 20230919
+
+A Slide Window sum problem. The trick is you need to reverse the problem by calculating keeping which numbers, instead of removing which numbers.
 
 ---
 
