@@ -694,6 +694,14 @@ I understand the basic the Dynamic Programming idea. A state can whether maintai
 
 ---
 
+## Leetcode.1458. Max Dot Product of Two Subsequences
+
+- Learned from solution; 20231008
+
+A Dynamic Programming problem. When using a 2-D array, an element at index (i, j) represents the current maximum dot product with the first array at length i and the second array at length j. An element at index (i, j) 's value can be calculated from three of its previous states: adding the product of the current pair of numbers to the previous element at (i - 1, j - 1), or ignoring the current numbers and picking a value from (i - 1, j) or (i, j - 1).
+
+---
+
 ## Leetcode.1489. Find Critical And Pseudo-critical edges in MST
 
 - Hinted; 20230818
