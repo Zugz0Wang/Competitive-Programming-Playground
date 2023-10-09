@@ -26,6 +26,14 @@ An interesting Binary Search Problem. The pivot value will always be at the firs
 
 ---
 
+## Leetcode.34. Find First and Last Position of Element in Sorted Array
+
+- Indenpendently solved; 20230104
+
+A Binary Search Problem, similar to searching for a place to insert.
+
+---
+
 ## Leetcode.46. Permutation
 
 - Independently solved; 20230802
