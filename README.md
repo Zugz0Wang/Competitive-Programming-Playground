@@ -574,6 +574,14 @@ A typical question for BFS. I reused the grid matrix as the visited set.
 
 ---
 
+## Leetcode.1095. Find in Mountain Array
+
+- Hinted by hint1 (almost everything); 20231011
+
+I thought this question would be more complex than finding the peak and then performing two binary searches. But I still created a plenty of bugs hahaha.
+
+---
+
 ## Leetcode.1125. Smallest Sufficient Team
 
 - Learned? from solution; 20230716
@@ -863,6 +871,14 @@ This is a textbook Union Find problem.
 
 ---
 
+## Leetcode.2009. Minimum Number Of Operations to Make Array Continuous
+
+- Hinted by (sort this array). 20231010
+
+I have only read the hint about sorting this array. So I think I would consider the problem as indenpendently solved. I realized what the continous means after I had read the hint. And then I use Sliding Windows to solve this problem. Specail attention must be given to duplicated numbers since they have to be modified to make the array continuous.
+
+---
+
 ## Leetcode.2024. Maximize The Confusion Of An Exam
 
 - Independently solved (checked hints but didn't understand); 20230707
@@ -894,6 +910,14 @@ Union Find uses path compression to accelerate the algorithm. I guess I can also
 - Learned from solution; 20230727
 
 Binary Search can solve this problem. The key is how to calculate whether a time is valid for the computers to run with given batteries.
+
+---
+
+## Leetcode.2251. Number of Flowers in Full Bloom
+
+- Hinted by (start - end); 20231010
+
+This is a Binary Search Problem. You can sort the start times and end times. And then, you can perform a binary search to find how many start times have passed and how many end times have passed.
 
 ---
 
